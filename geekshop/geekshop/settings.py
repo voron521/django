@@ -1,3 +1,6 @@
+
+
+
 """
 Django settings for geekshop project.
 
