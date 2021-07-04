@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'mainapp',
+    'authapp',
 ]
 
 MIDDLEWARE = [
@@ -55,6 +56,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'geekshop.urls'
+# AUTH_USER_MODEL = 'authapp.ShopUser'
 
 TEMPLATES = [
     {
